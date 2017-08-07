@@ -1,5 +1,5 @@
 function drawTree(line) {
-	for (var i = 0; i < 7; i++) {
+	for (var i = 0; i < line; i++) {
 		var star = '';
 		for (var j = 0; j < i; j++) {
 			var star = star + '*';
@@ -8,4 +8,4 @@ function drawTree(line) {
 	}
 }
 
-drawTree(7);
+var tree = drawTree(7);
